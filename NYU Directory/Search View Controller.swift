@@ -87,6 +87,8 @@ class Search_View_Controller: UIViewController, UITableViewDelegate, UITableView
     detailViewController.miscInformation = miscInformation
     detailViewController.telephoneNumber = searchResults[indexPath.row].telephoneNumber
     
+    
+    
     navigationController?.pushViewController(detailViewController, animated: true)
     
   }
