@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		2273229F1EB23D180057DC11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2273229E1EB23D180057DC11 /* AppDelegate.swift */; };
-		227322A11EB23D180057DC11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227322A01EB23D180057DC11 /* ViewController.swift */; };
 		227322A41EB23D180057DC11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227322A21EB23D180057DC11 /* Main.storyboard */; };
 		227322A61EB23D190057DC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227322A51EB23D190057DC11 /* Assets.xcassets */; };
 		227322A91EB23D190057DC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227322A71EB23D190057DC11 /* LaunchScreen.storyboard */; };
+		22BC3ABD1EB266F6005992D8 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC3ABC1EB266F6005992D8 /* Employee.swift */; };
+		22BC3ABF1EB268A3005992D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC3ABE1EB268A3005992D8 /* DetailViewController.swift */; };
+		22BC3AC11EB268D3005992D8 /* Search View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC3AC01EB268D3005992D8 /* Search View Controller.swift */; };
+		22BC3AC61EB2693F005992D8 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC3AC41EB2693F005992D8 /* ResultTableViewCell.swift */; };
+		22BC3AC71EB2693F005992D8 /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BC3AC51EB2693F005992D8 /* ResultTableViewCell.xib */; };
+		22BC3AC91EB26D59005992D8 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC3AC81EB26D59005992D8 /* Demo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2273229B1EB23D180057DC11 /* NYU Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYU Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2273229E1EB23D180057DC11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		227322A01EB23D180057DC11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		227322A31EB23D180057DC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		227322A51EB23D190057DC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227322A81EB23D190057DC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		227322AA1EB23D190057DC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BC3ABC1EB266F6005992D8 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		22BC3ABE1EB268A3005992D8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		22BC3AC01EB268D3005992D8 /* Search View Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Search View Controller.swift"; sourceTree = "<group>"; };
+		22BC3AC41EB2693F005992D8 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultTableViewCell.swift; path = ../ResultTableViewCell.swift; sourceTree = "<group>"; };
+		22BC3AC51EB2693F005992D8 /* ResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultTableViewCell.xib; path = ../ResultTableViewCell.xib; sourceTree = "<group>"; };
+		22BC3AC81EB26D59005992D8 /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		2273229D1EB23D180057DC11 /* NYU Directory */ = {
 			isa = PBXGroup;
 			children = (
+				22BC3AC41EB2693F005992D8 /* ResultTableViewCell.swift */,
+				22BC3AC51EB2693F005992D8 /* ResultTableViewCell.xib */,
 				2273229E1EB23D180057DC11 /* AppDelegate.swift */,
-				227322A01EB23D180057DC11 /* ViewController.swift */,
+				22BC3AC81EB26D59005992D8 /* Demo.swift */,
+				22BC3AC01EB268D3005992D8 /* Search View Controller.swift */,
+				22BC3ABE1EB268A3005992D8 /* DetailViewController.swift */,
+				22BC3ABC1EB266F6005992D8 /* Employee.swift */,
 				227322A21EB23D180057DC11 /* Main.storyboard */,
 				227322A51EB23D190057DC11 /* Assets.xcassets */,
 				227322A71EB23D190057DC11 /* LaunchScreen.storyboard */,
@@ -125,6 +140,7 @@
 			files = (
 				227322A91EB23D190057DC11 /* LaunchScreen.storyboard in Resources */,
 				227322A61EB23D190057DC11 /* Assets.xcassets in Resources */,
+				22BC3AC71EB2693F005992D8 /* ResultTableViewCell.xib in Resources */,
 				227322A41EB23D180057DC11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227322A11EB23D180057DC11 /* ViewController.swift in Sources */,
+				22BC3ABD1EB266F6005992D8 /* Employee.swift in Sources */,
+				22BC3AC11EB268D3005992D8 /* Search View Controller.swift in Sources */,
+				22BC3AC91EB26D59005992D8 /* Demo.swift in Sources */,
 				2273229F1EB23D180057DC11 /* AppDelegate.swift in Sources */,
+				22BC3AC61EB2693F005992D8 /* ResultTableViewCell.swift in Sources */,
+				22BC3ABF1EB268A3005992D8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				227322AF1EB23D190057DC11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
