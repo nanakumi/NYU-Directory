@@ -79,9 +79,11 @@ class Search_View_Controller: UIViewController, UITableViewDelegate, UITableView
     
     let miscInformation = ("\(searchResults[indexPath.row].fullName + "\n" + searchResults[indexPath.row].netID + "\n" + searchResults[indexPath.row].cityOfAddress)")
     
+    let fullJobRoleInfo = ("\(searchResults[indexPath.row].roleTitle), " + searchResults[indexPath.row].universityDepartment)
+    
     detailViewController.prefferedName = searchResults[indexPath.row].fullName
-    detailViewController.roleTitle = searchResults[indexPath.row].roleTitle
-    detailViewController.departmentName = searchResults[indexPath.row].universityDepartment
+       detailViewController.departmentName = searchResults[indexPath.row].universityDepartment
+    detailViewController.roleTitleInfo = fullJobRoleInfo 
     detailViewController.fullAddress = fullAddress
     detailViewController.contactInfo = contactInfo
     detailViewController.miscInformation = miscInformation

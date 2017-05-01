@@ -12,7 +12,7 @@ class DetailViewController: UIViewController {
 
   
   var prefferedName: String = String()
-  var roleTitle: String = String()
+  var roleTitleInfo: String = String()
   var departmentName: String = String()
   var fullAddress: String = String()
   var contactInfo: String = String()
@@ -24,8 +24,6 @@ class DetailViewController: UIViewController {
   @IBOutlet weak var preferredNameLabel: UILabel!
   
   @IBOutlet weak var roleTitleLabel: UILabel!
-  
-  @IBOutlet weak var departmentNameLabel: UILabel!
   
   @IBOutlet weak var addressTextView: UITextView!
   
@@ -51,8 +49,7 @@ class DetailViewController: UIViewController {
   func populateData(){
     
     preferredNameLabel.text  = prefferedName
-    roleTitleLabel.text = roleTitle
-    departmentNameLabel.text = departmentName
+    roleTitleLabel.text = roleTitleInfo
     addressTextView.text = fullAddress
     contactTextView.text = contactInfo
     informationTextView.text = miscInformation
